@@ -1,0 +1,45 @@
+{
+  "name": "a11y-nested-interactive-content",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This project is meant to teach software engineers how to create accessible nested interactive content in React. It includes good examples and bad examples.",
+  "homepage": "http://tylerhawkins.info/a11y-nested-interactive-content/build/",
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{js,jsx,md}\"",
+    "format-watch": "onchange \"src/**/*.{js,jsx,md}\" -- prettier --write {{changed}}",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "onchange": "^7.1.0",
+    "prettier": "^2.3.1",
+    "react-scripts": "4.0.3"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
