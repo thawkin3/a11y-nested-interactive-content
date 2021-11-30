@@ -1,4 +1,11 @@
 .item {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.itemContent {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -15,8 +22,8 @@
   cursor: pointer;
 }
 
-.item:hover,
-.item:focus {
+.itemContent:hover,
+.itemContent:focus {
   outline: none;
   border-color: #216869;
 }

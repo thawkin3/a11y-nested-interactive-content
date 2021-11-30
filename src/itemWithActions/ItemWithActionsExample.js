@@ -32,7 +32,7 @@ export const ItemWithActionsExample = () => {
         the right.
       </p>
       <div className="itemWithActionsExample">
-        <div className="itemsContainer">
+        <ul className="itemsContainer">
           {items.map(item => (
             <ItemWithActions
               key={item.title}
@@ -42,7 +42,7 @@ export const ItemWithActionsExample = () => {
               onDelete={e => handleItemDelete(item.title, e)}
             />
           ))}
-        </div>
+        </ul>
         <div className="selectedItem">
           Selected filter:
           <br />
