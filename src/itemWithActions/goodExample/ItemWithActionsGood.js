@@ -1,7 +1,7 @@
 import React from 'react';
-import './ItemWithActions.css';
+import './ItemWithActionsGood.css';
 
-export const ItemWithActions = ({ title, onClick, onEdit, onDelete }) => {
+export const ItemWithActionsGood = ({ title, onClick, onEdit, onDelete }) => {
   const onKeyPress = e => {
     if (clickKeys.includes(e.key)) {
       onClick();
@@ -9,7 +9,7 @@ export const ItemWithActions = ({ title, onClick, onEdit, onDelete }) => {
   };
 
   return (
-    <li className="item">
+    <li className="itemWithActionsGood">
       <div
         className="itemContent"
         onClick={onClick}

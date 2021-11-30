@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { ItemWithActions } from './ItemWithActions';
-import './ItemWithActionsExample.css';
+import { ItemWithActionsGood } from './ItemWithActionsGood';
+import './ItemWithActionsGoodExample.css';
 
 const items = [
   { title: 'All Tasks' },
@@ -8,7 +8,7 @@ const items = [
   { title: 'Completed Tasks' },
 ];
 
-export const ItemWithActionsExample = () => {
+export const ItemWithActionsGoodExample = () => {
   const [selectedItem, setSelectedItem] = useState(items[0].title);
 
   const handleItemClick = itemTitle => {
@@ -27,14 +27,15 @@ export const ItemWithActionsExample = () => {
 
   return (
     <div>
+      <h3>Good Example</h3>
       <p>
         Let's pretend this is a list of filters. The selected filter appears on
         the right.
       </p>
-      <div className="itemWithActionsExample">
+      <div className="itemWithActionsGoodExample">
         <ul className="itemsContainer">
           {items.map(item => (
-            <ItemWithActions
+            <ItemWithActionsGood
               key={item.title}
               title={item.title}
               onClick={() => handleItemClick(item.title)}

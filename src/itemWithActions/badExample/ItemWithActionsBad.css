@@ -1,0 +1,32 @@
+.itemWithActionsBad {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.itemWithActionsBad .itemContent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0.1875rem 0.375rem 0;
+  border-radius: 0.25rem;
+  border: solid 0.125rem #fff;
+  background: #fff;
+  padding: 0.75rem;
+  color: #000;
+  transition: transform 0.1s linear 0s;
+  cursor: pointer;
+}
+
+.itemWithActionsBad .itemContent:hover,
+.itemWithActionsBad .itemContent:focus {
+  outline: none;
+  border-color: #216869;
+}
+
+.itemWithActionsBad .actionsContainer button:first-of-type {
+  margin-right: 0.5rem;
+}

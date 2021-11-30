@@ -1,11 +1,10 @@
-.item {
+.itemWithActionsGood {
   display: block;
   width: 100%;
   position: relative;
-  margin-bottom: 2rem;
 }
 
-.itemContent {
+.itemWithActionsGood .itemContent {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -22,12 +21,12 @@
   cursor: pointer;
 }
 
-.itemContent:hover,
-.itemContent:focus {
+.itemWithActionsGood .itemContent:hover,
+.itemWithActionsGood .itemContent:focus {
   outline: none;
   border-color: #216869;
 }
 
-.item .actionsContainer button:first-of-type {
+.itemWithActionsGood .actionsContainer button:first-of-type {
   margin-right: 0.5rem;
 }
