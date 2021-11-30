@@ -4,6 +4,19 @@ This project is meant to teach software engineers how to create accessible neste
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Accessibility Principles Addressed
+
+1. Interactive content should not be nested.
+2. When re-creating a button element using a div element, you must remember to add a tabindex, a keypress handler, and the role="button" attribute.
+3. Lists of items should use proper semantic list elements.
+4. Interactive content needs adequate visible focus indicators.
+5. Contextual labels should be added to buttons to indicate which item in the list the button relates to.
+
+## Additional Takeaways
+
+1. Accessible content can still look good!
+2. You can often take inaccessible content and improve it even without affecting the initial UI design.
+
 ## Available Scripts
 
 In the project directory, you can run:
