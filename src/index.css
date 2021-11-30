@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  padding: 4rem;
+  padding: 2rem 4rem 4rem 4rem;
   font-size: 100%;
 }
 
@@ -81,19 +81,4 @@ body {
   position: absolute;
   right: 0;
   pointer-events: none;
-}
-
-div.cards-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-ol.cards-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }

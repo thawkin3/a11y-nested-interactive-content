@@ -21,7 +21,7 @@ export const ItemWithActions = ({ title, onClick, onEdit, onDelete }) => {
         <button className="button outline" onClick={onEdit}>
           Edit
         </button>
-        <button className="button outline" onClick={onDelete}>
+        <button className="button underline" onClick={onDelete}>
           Delete
         </button>
       </div>

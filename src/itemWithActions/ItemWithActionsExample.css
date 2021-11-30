@@ -9,6 +9,14 @@
   width: 49%;
 }
 
+.itemsContainer .item {
+  margin-bottom: 0.5rem;
+}
+
+.itemsContainer .item:last-of-type {
+  margin-bottom: 0;
+}
+
 .selectedItem {
   width: 49%;
   display: flex;

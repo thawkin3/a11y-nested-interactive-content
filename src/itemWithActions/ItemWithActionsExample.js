@@ -27,7 +27,7 @@ export const ItemWithActionsExample = () => {
 
   return (
     <div>
-      <p>Let's pretend this is a list of filters.</p>
+      <p>Let's pretend this is a list of filters. The selected filter appears on the right.</p>
       <div className="itemWithActionsExample">
         <div className="itemsContainer">
           {items.map(item => (
