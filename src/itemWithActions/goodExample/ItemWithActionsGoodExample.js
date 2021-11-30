@@ -15,13 +15,11 @@ export const ItemWithActionsGoodExample = () => {
     setSelectedItem(itemTitle);
   };
 
-  const handleItemEdit = (itemTitle, e) => {
-    e.stopPropagation();
+  const handleItemEdit = itemTitle => {
     alert(`Editing item: ${itemTitle}`);
   };
 
-  const handleItemDelete = (itemTitle, e) => {
-    e.stopPropagation();
+  const handleItemDelete = itemTitle => {
     alert(`Deleting item: ${itemTitle}`);
   };
 
@@ -39,8 +37,8 @@ export const ItemWithActionsGoodExample = () => {
               key={item.title}
               title={item.title}
               onClick={() => handleItemClick(item.title)}
-              onEdit={e => handleItemEdit(item.title, e)}
-              onDelete={e => handleItemDelete(item.title, e)}
+              onEdit={() => handleItemEdit(item.title)}
+              onDelete={() => handleItemDelete(item.title)}
             />
           ))}
         </ul>
