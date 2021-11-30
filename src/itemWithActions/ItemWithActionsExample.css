@@ -1,0 +1,24 @@
+.itemWithActionsExample {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemsContainer {
+  width: 49%;
+}
+
+.selectedItem {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  text-align: center;
+  font-size: 3rem;
+  border-radius: 0.25rem;
+  background: #fff;
+  padding: 0.25rem;
+  color: #000;
+}
