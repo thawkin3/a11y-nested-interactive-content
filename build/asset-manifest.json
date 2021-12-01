@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/a11y-nested-interactive-content/build/static/css/main.37114fc5.chunk.css",
+    "main.js": "/a11y-nested-interactive-content/build/static/js/main.04432d00.chunk.js",
+    "main.js.map": "/a11y-nested-interactive-content/build/static/js/main.04432d00.chunk.js.map",
+    "runtime-main.js": "/a11y-nested-interactive-content/build/static/js/runtime-main.21913331.js",
+    "runtime-main.js.map": "/a11y-nested-interactive-content/build/static/js/runtime-main.21913331.js.map",
+    "static/js/2.e12818aa.chunk.js": "/a11y-nested-interactive-content/build/static/js/2.e12818aa.chunk.js",
+    "static/js/2.e12818aa.chunk.js.map": "/a11y-nested-interactive-content/build/static/js/2.e12818aa.chunk.js.map",
+    "index.html": "/a11y-nested-interactive-content/build/index.html",
+    "static/css/main.37114fc5.chunk.css.map": "/a11y-nested-interactive-content/build/static/css/main.37114fc5.chunk.css.map",
+    "static/js/2.e12818aa.chunk.js.LICENSE.txt": "/a11y-nested-interactive-content/build/static/js/2.e12818aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21913331.js",
+    "static/js/2.e12818aa.chunk.js",
+    "static/css/main.37114fc5.chunk.css",
+    "static/js/main.04432d00.chunk.js"
+  ]
+}
