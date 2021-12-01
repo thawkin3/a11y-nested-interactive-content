@@ -4,6 +4,12 @@ This project is meant to teach software engineers how to create accessible neste
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You can find the demo app hosted here: http://tylerhawkins.info/a11y-nested-interactive-content/build/
+
+## Running the App Locally
+
+You can run the app locally by simply cloning the repo, running `yarn install`, and then running `yarn start`.
+
 ## Accessibility Principles Addressed
 
 1. Interactive content should not be nested.
